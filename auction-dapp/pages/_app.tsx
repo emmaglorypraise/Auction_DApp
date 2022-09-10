@@ -14,7 +14,7 @@ const chains = [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum, ch
 
 const client = createClient(
   getDefaultClient({
-    appName: "Your App Name",
+    appName: "Auction DApp",
     alchemyId,
     chains
   })
