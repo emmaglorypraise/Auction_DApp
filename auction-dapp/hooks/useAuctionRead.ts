@@ -8,7 +8,7 @@ const useAuctionRead = (functionName="") => {
     ...AUCTION_CONTRACT,
     functionName,
   })
-  console.log(data, isError, isLoading)
+  // console.log(data, isError, isLoading)
   return { data, isError, isLoading }
 }
 
